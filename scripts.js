@@ -40,7 +40,7 @@ document.getElementById("searchButton").addEventListener("click", function () {
   function fetchWeatherData(countryName) {
     var api_key = "34a09b96b0ff90011146fe9c98d4bb99";
     fetch(
-      `https://api.openweathermap.org/data/2.5/weather?q=${countryName}&appid=${api_key}`
+      `https://api.openweathermap.org/data/2.5/weather?units=metric&q=${countryName}&appid=${api_key}`
     )
       .then((response) => response.json())
       .then((data) => {
