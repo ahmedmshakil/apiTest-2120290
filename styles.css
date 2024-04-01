@@ -16,19 +16,31 @@
   header {
     background-color: #4e5770;
     color: #d0d1d0;
-    height: 8vh;
+    height: 10vh;
     padding: 10px 0;
+    display: flex;
   }
+  .logo{
+    display: flex;
+
+  }
+  .logo img{
+    width: 40px;
+    margin:5px;
+  }
+
+  
   
   nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
-  
+   
     padding: 0 20px;
   }
   
   nav a {
+    margin-left: 30vw;
     color: #fff;
     text-decoration: none;
     font-size: 18px;
