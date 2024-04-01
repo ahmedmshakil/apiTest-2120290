@@ -125,7 +125,7 @@
   }
   
   .additional-details-container {
-    position: absolute; /* Changed to absolute positioning */
+    position: fixed; /* Changed to absolute positioning */
     top: 130px; /* Adjust top position to match navbar height */
     right: 0;
     width: 500px;
